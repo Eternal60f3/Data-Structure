@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"stack.h": "c",
+			"stack_c.h": "c"
+		}
+	}
 }

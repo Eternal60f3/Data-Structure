@@ -62,7 +62,7 @@ bool Insert(StaticLink list, Item data, int index)
     int site;
     if (!(site = Malloc_List(list)))
     {
-        return false;
+        return false;   
     }
     list[site].item = data;
 
