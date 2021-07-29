@@ -7,7 +7,12 @@
 	"settings": {
 		"files.associations": {
 			"stack.h": "c",
-			"stack_c.h": "c"
-		}
+			"stack_c.h": "c",
+			"stdbool.h": "c",
+			"stack": "c",
+			"stack_ll.h": "c",
+			"stdlib.h": "c"
+		},
+		"files.encoding": "gbk"
 	}
 }

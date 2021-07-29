@@ -1,31 +1,31 @@
 #include "stack_c.h"
 
-// 初始化
+// 初始�?
 void InitStack_c(stack_c *list)
 {
     list->top = -1;
     list->count = 0;
 }
 
-// 判断栈是否为空
+// 判断栈是否为�?
 bool StackIsEmpty_c(const stack_c *list)
 {
     return list->count == 0;
 }
 
-// 判断栈是否已满
+// 判断栈是否已�?
 bool StackIsFull_c(const stack_c *list)
 {
     return list->count == SIZE;
 }
 
-// 获取栈中的项数
+// 获取栈中的项�?
 int LenStack_c(const stack_c *list)
 {
     return list->count;
 }
 
-// 读取栈顶项
+// 读取栈顶�?
 bool StackGetTop_c(const stack_c *list, char *data)
 {
     if (StackIsEmpty_c(list))
@@ -62,7 +62,7 @@ bool StackPop_c(stack_c *list, char *data)
     return true;
 }
 
-// 清空栈
+// 清空�?
 bool ClearStack_c(stack_c *list)
 {
     if (StackIsEmpty_c(list))

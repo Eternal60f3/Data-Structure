@@ -41,7 +41,7 @@ void main(void)
     puts("done");
 }
 
-// è·å–ä¸­ç¼€è¡¨è¾¾å¼
+// »ñÈ¡ÖĞ×º±í´ïÊ½
 void Get_expression(char *expression, int size)
 {
     while (true)
@@ -107,7 +107,7 @@ bool expression_isInvalid(const char *expression)
     return !(StackIsEmpty_c(&bracket));
 }
 
-// è®¡ç®—è¡¨è¾¾å¼çš„ç»“æœ
+// ¼ÆËã±í´ïÊ½µÄ½á¹û
 long long Calculate(const char *expression)
 {
     char suffix[SLEN];
